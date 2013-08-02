@@ -1,0 +1,14 @@
+@mixin oswald{
+  font-family: 'Oswald', sans-serif;
+}
+@mixin script{
+  font-family: 'Yesteryear', cursive;
+}
+@mixin opensans{
+  font-family: 'Open Sans', sans-serif;
+}
+@mixin fitcontain{
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1140px;
+}

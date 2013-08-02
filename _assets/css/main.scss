@@ -1,16 +1,10 @@
 @import '_thumper';
 @import 'compass';
 @import '_syntax';
+@import '_mixins';
+@import '_vars';
 
 /* =========================================================== Base Styles ============================================================ */
-@mixin oswald{font-family: 'Oswald', sans-serif;}
-@mixin script{font-family: 'Yesteryear', cursive;}
-@mixin opensans{font-family: 'Open Sans', sans-serif;}
-@mixin fitcontain{margin: 0 auto; width: 100%; max-width: 1140px;}
-$secondary_color: #F2F2F2;
-$primary_color: #FF5200;
-$text_color: #2B2B2B;
-
 body{
   background-color: $secondary_color;
   h1, h2, h3, h4{
@@ -81,7 +75,7 @@ body{
 
 /* =========================================================== Homepage.php ============================================================ */
 .content{
-  background-color: $gray;
+  background-color: $secondary_color;
   padding-top: 40px;
   padding-bottom: 40px;
   h1{
