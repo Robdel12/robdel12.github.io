@@ -1,3 +1,5 @@
+@import url(syntax.css);
+/* line 9, _thumper.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s,
 samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
@@ -11,77 +13,99 @@ section, summary, time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
+/* line 10, _thumper.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block; }
 
+/* line 11, _thumper.scss */
 ol, ul {
   list-style: none;
   width: 100%; }
 
+/* line 12, _thumper.scss */
 blockquote, q {
   quotes: none; }
 
+/* line 13, _thumper.scss */
 blockquote:before, blockquote:after, q:before, q:after {
   content: '';
   content: none; }
 
+/* line 14, _thumper.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* line 17, _thumper.scss */
 body h1 {
   font-size: 30px; }
+/* line 18, _thumper.scss */
 body h2 {
   font-size: 26px; }
+/* line 19, _thumper.scss */
 body h3 {
   font-size: 20px; }
+/* line 20, _thumper.scss */
 body h4 {
   font-size: 16px; }
+/* line 21, _thumper.scss */
 body p {
   font-size: 16px; }
 
+/* line 72, _thumper.scss */
 .grid {
   float: left;
   margin: 1% 2% 0 0; }
 
+/* line 73, _thumper.scss */
 .clear {
   clear: both; }
 
+/* line 74, _thumper.scss */
 img {
   max-width: 100%;
   height: auto; }
 
+/* line 75, _thumper.scss */
 .wrap {
   width: 100%; }
 
+/* line 76, _thumper.scss */
 .pad {
   padding: 0 20px 0 20px; }
 
+/* line 77, _thumper.scss */
 .contain {
   width: 100%;
   max-width: 1140px;
   margin: 0 auto; }
 
+/* line 78, _thumper.scss */
 .last {
   margin-right: 0 !important; }
 
+/* line 79, _thumper.scss */
 .space {
   content: ' ';
   visibility: hidden; }
 
 @media only screen and (min-width: 861px) and (max-width: 1040px) {
+  /* line 101, _thumper.scss */
   .grid {
     float: left;
     margin: 1.2% 2% 0 0; } }
 @media only screen and (min-width: 640px) and (max-width: 860px) {
+  /* line 110, _thumper.scss */
   .grid {
     float: left;
     margin: 1.5% 2% 0 0; } }
 @media only screen and (max-width: 639px) {
+  /* line 119, _thumper.scss */
   .grid {
     float: left;
     width: 100% !important;
     margin: 2% 3% 0 0; }
 
+  /* line 120, _thumper.scss */
   .pad {
     padding: 0 2.5% 0 2.5%; } }

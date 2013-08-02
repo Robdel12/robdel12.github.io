@@ -1,3 +1,4 @@
 name: Roberts personal site
 markdown: redcarpet
 pygments: true
+safe: false
