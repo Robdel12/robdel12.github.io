@@ -25,9 +25,8 @@ body{
   ul{
     list-style: disc;
     padding-left: 3%;
-    @include oswald; 
+    @include oswald(300); 
     font-size:19px; 
-    font-weight: 300; 
     li{
       padding: 0 10px; 
       color: #414141
@@ -60,13 +59,11 @@ body{
       a{
         font-size: 20px; 
         @include oswald; 
-        color: $nav_color; //TO do Color constant
-        font-weight: 400; 
+        color: $nav_color;
         &:hover{
           text-decoration: none; 
+          @include transition(border .15s linear);
           border-top: 4px solid black; 
-          -webkit-transition: border .15s linear; 
-          transition: border .15s linear; //TO DO Compass
         }
       }
     }
@@ -210,40 +207,37 @@ body{
 @media screen and (min-width: 40em){
   .timeline{
     //TODO Compass
-    background-image:-webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #f0f0f0), color-stop(49.59%, #f0f0ee), color-stop(49.6%, #e2e2e2), color-stop(49.9%, #e2e2e2), color-stop(50%, #f0f0f0));
-    background-image:-webkit-linear-gradient(left, $secondary_color 0%,$secondary_color 49.59%,#e2e2e2 49.6%,#e2e2e2 49.9%,$secondary_color 50%);
-    background-image:-moz-linear-gradient(left, $secondary_color 0%,$secondary_color 49.59%,#e2e2e2 49.6%,#e2e2e2 49.9%,$secondary_color 50%);
-    background-image:-o-linear-gradient(left, $secondary_color 0%,$secondary_color 49.59%,#e2e2e2 49.6%,#e2e2e2 49.9%,$secondary_color 50%);
-    background-image:linear-gradient(left, $secondary_color 0%,$secondary_color 49.59%,#e2e2e2 49.6%,#e2e2e2 49.9%,$secondary_color 50%);}
-    .timeline .timeline-title{
-      margin-bottom: 0.5em;
-    }
-    .timeline img{
-      margin-bottom: 0.3em;
-    }
-    .timeline p{
-      font-size: 0.9em;
-    }
-    .timeline li{
-      width: 40%;
-      margin: 3% 5% 0;
-    }
-    .timeline li:nth-of-type(odd){
-      float: left;
-    }
-    .timeline li:nth-of-type(odd):before{
-      content: "▶";
-      left: auto;
-      right: -0.75em;
-    }
-    .timeline li:nth-of-type(even){
-      margin-top: -1%;
-      float: right;
-    }
-    .timeline li:nth-of-type(2n+1){
-      clear: both;
-    }
+    @include background(linear-gradient(left, $secondary_color 0%,$secondary_color 49.59%,#e2e2e2 49.6%,#e2e2e2 49.9%,$secondary_color 50%));
   }
+  .timeline .timeline-title{
+    margin-bottom: 0.5em;
+  }
+  .timeline img{
+    margin-bottom: 0.3em;
+  }
+  .timeline p{
+    font-size: 0.9em;
+  }
+  .timeline li{
+    width: 40%;
+    margin: 3% 5% 0;
+  }
+  .timeline li:nth-of-type(odd){
+    float: left;
+  }
+  .timeline li:nth-of-type(odd):before{
+    content: "▶";
+    left: auto;
+    right: -0.75em;
+  }
+  .timeline li:nth-of-type(even){
+    margin-top: -1%;
+    float: right;
+  }
+  .timeline li:nth-of-type(2n+1){
+    clear: both;
+  }
+}
 .time{
   @include oswald(300, italic);
   font-size: 12px;
