@@ -1,13 +1,13 @@
-@import '_thumper.scss';
+@import '_thumper';
 @import 'compass';
-@import 'syntax.css';
+@import '_syntax';
 
 /* =========================================================== Base Styles ============================================================ */
 @mixin oswald{font-family: 'Oswald', sans-serif;}
 @mixin script{font-family: 'Yesteryear', cursive;}
 @mixin opensans{font-family: 'Open Sans', sans-serif;}
 @mixin fitcontain{margin: 0 auto; width: 100%; max-width: 1140px;}
-$gray: #F2F2F2;
+$secondary_color: #F2F2F2;
 $orange: #FF5200;
 $black: #2B2B2B;
 

@@ -3,10 +3,10 @@
 # Set this to the root of your project when deployed:
 http_path = "/"
 css_dir = "css"
-sass_dir = "css"
-images_dir = "images"
-javascripts_dir = "javascripts"
-fonts_dir = "fonts"
+sass_dir = "_assets/css"
+images_dir = "_assets/img"
+javascripts_dir = "_assets/js"
+fonts_dir = "_assets/fonts"
 
 output_style = :nested
 
@@ -22,4 +22,4 @@ color_output = false
 # project again passing --syntax sass, or you can uncomment this:
 # preferred_syntax = :sass
 # and then run:
-# sass-convert -R --from scss --to sass css scss && rm -rf sass && mv scss sass
+# sass-convert -R --from scss --to sass _assets/css scss && rm -rf sass && mv scss sass
