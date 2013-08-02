@@ -1,3 +1,366 @@
 @import '_thumper.scss';
 @import 'compass';
 @import 'syntax.css';
+
+/* =========================================================== Base Styles ============================================================ */
+@mixin oswald{font-family: 'Oswald', sans-serif;}
+@mixin script{font-family: 'Yesteryear', cursive;}
+@mixin opensans{font-family: 'Open Sans', sans-serif;}
+@mixin fitcontain{margin: 0 auto; width: 100%; max-width: 1140px;}
+$gray: #F2F2F2;
+$orange: #FF5200;
+$black: #2B2B2B;
+
+//TODO DRY this up.. Turrible CSS here
+body{
+  background-color: #F2F2F2;
+  h1{
+    font-size: 80px; 
+    @include oswald;
+    color: $black;
+  }
+  h2{
+    font-size: 60px; 
+    @include oswald; 
+    color: $black;
+  }
+  h3{
+    font-size: 45px; 
+    @include oswald; 
+    color: $black;
+  }
+  h4{
+    font-size: 30px;
+    @include oswald; 
+    color: $black;
+  }
+  a{
+    text-decoration: none; 
+    color: $orange;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  ul{
+    list-style: disc;
+    padding-left: 3%;
+    @include oswald; 
+    font-size:19px; 
+    font-weight: 300; 
+    li{
+      padding: 0 10px; 
+      color: #414141
+    }
+  }
+}
+
+/* =========================================================== Header.php ============================================================ */
+
+.header{
+  background-color: $orange;
+  padding-top: 1px;
+  padding-bottom: 14px;
+  .navcontain{
+    @include fitcontain;
+     margin-top: 1%;
+    .logo{
+      width: 10%;
+      float: left; 
+      padding-right: 3%; 
+    }
+    .nav{
+      margin-top: 4px;
+      width: 100%;
+      float: left;
+      li{
+        display: inline-block; //TO DO compass
+        padding-right: 4%;
+      }
+      a{
+        font-size: 20px; 
+        @include oswald; 
+        color: #272727; //TO do Color constant
+        font-weight: 400; 
+        &:hover{
+          text-decoration: none; 
+          border-top: 4px solid black; 
+          -webkit-transition: border .15s linear; 
+          transition: border .15s linear; //TO DO Compass
+        }
+      }
+    }
+  }
+}
+
+/* =========================================================== Homepage.php ============================================================ */
+.content{
+  background-color: $gray;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  h1{
+    font-size: 100px; 
+    @include oswald; 
+    color: #2B2B2B;
+  }
+  p{
+    @include opensans; 
+    font-weight: 300; 
+    line-height: 32px; 
+    font-size: 19px; 
+    padding: 5px 0 5px 0; 
+    color: #414141;
+  }
+}
+.homepage{
+  h2{
+    a{
+      font-size: 60px;
+    }
+  }
+  .homeblog{
+    h3{
+      font-weight: 600; 
+      font-size: 18px;
+    }
+    h2{
+      color: $orange;
+    }
+  }
+}
+/* =========================================================== Single ============================================================ */
+.post-categories{
+  padding-left: 0 !important;
+  width: 100%;
+  li{
+    display: inline-block;
+   padding-right: 2%;
+  }
+}
+
+/* =========================================================== Index.php ============================================================ */
+
+.post{
+  padding-bottom: 40px;
+  .date{
+    @include oswald; 
+    font-size: 12px;
+  }
+  .cats{
+    @include oswald; 
+    font-size: 12px; 
+    float: left; 
+    padding-right: 1%;
+  }
+  .moretag{
+    font-weight: 400;
+  }
+  .commentwrap{
+    padding-top: 50px;
+  }
+  h2{
+    padding-top: 25px;
+  }
+  .titleheader{padding-top: 0 !important;}
+}
+/* =========================================================== Contact ============================================================ */
+//TODO Create contact form and using this styling
+
+// .wpcf7{
+//   textarea, input{width: 70%; border: none; padding: 5px; @include opensans; color: black;}
+//   input[type="submit"]{width: 17%; background-color: $orange; color: black; @include oswald; font-size: 22px; cursor: pointer;
+//     &:hover{background-color: lighten($orange, 8%); -webkit-transition: background-color .15s linear; transition: background-color .15s linear;}
+//   }
+// }
+
+/* =========================================================== About.php ============================================================ */
+.timeline{
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 2em;
+}
+.timeline .timeline-title{
+  clear:both;
+  text-align:center;
+  border:2px solid #e2e2e2;
+  background:#f0f0f0;
+  margin:0 auto 2em;
+  max-width:8em;
+  padding:0.25em 0.5em
+}
+.timeline ul{
+  overflow:hidden;
+  margin:0 0 1em;
+  padding:0
+}
+.timeline li{
+  background: #e2e2e2;
+  padding: 2%;
+  border-radius: 4px; 
+  list-style-type: none;
+  margin: 0 0 1em 1em;
+  position: relative;
+}
+.timeline li:before{
+  color: #e2e2e2;
+  content: "◀";
+  position: absolute;
+  left: -0.75em;
+  top: 0.5em;
+  z-index: 100;
+}
+.timeline time{
+  color: #979797;
+  display: block; 
+  font-size: 0.9em; 
+  font-style: italic;
+}
+.timeline .description{
+  margin-bottom: 0; 
+  line-height: 31px; 
+  font-size: 17px;
+} 
+@media (min-width: 20em){
+  .matte{
+    float: right;
+    width: 37.5%;
+    margin: 0 0 1em 1.5em;
+  }
+}
+@media screen and (min-width: 40em){
+  .timeline{
+    //TODO Compass
+    background-image:-webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #f0f0f0), color-stop(49.59%, #f0f0ee), color-stop(49.6%, #e2e2e2), color-stop(49.9%, #e2e2e2), color-stop(50%, #f0f0f0));
+    background-image:-webkit-linear-gradient(left, #F2F2F2 0%,#F2F2F2 49.59%,#e2e2e2 49.6%,#e2e2e2 49.9%,#F2F2F2 50%);
+    background-image:-moz-linear-gradient(left, #F2F2F2 0%,#F2F2F2 49.59%,#e2e2e2 49.6%,#e2e2e2 49.9%,#F2F2F2 50%);
+    background-image:-o-linear-gradient(left, #F2F2F2 0%,#F2F2F2 49.59%,#e2e2e2 49.6%,#e2e2e2 49.9%,#F2F2F2 50%);
+    background-image:linear-gradient(left, #F2F2F2 0%,#F2F2F2 49.59%,#e2e2e2 49.6%,#e2e2e2 49.9%,#F2F2F2 50%);}
+    .timeline .timeline-title{
+      margin-bottom: 0.5em;
+    }
+    .timeline img{
+      margin-bottom: 0.3em;
+    }
+    .timeline p{
+      font-size: 0.9em;
+    }
+    .timeline li{
+      width: 40%;
+      margin: 3% 5% 0;
+    }
+    .timeline li:nth-of-type(odd){
+      float: left;
+    }
+    .timeline li:nth-of-type(odd):before{
+      content: "▶";
+      left: auto;
+      right: -0.75em;
+    }
+    .timeline li:nth-of-type(even){
+      margin-top: -1%;
+      float: right;
+    }
+    .timeline li:nth-of-type(2n+1){
+      clear: both;
+    }
+  }
+.time{
+  @include oswald; 
+  font-weight:300; 
+  font-style: italic; 
+  font-size: 12px;
+}
+/* =========================================================== Footer.php ============================================================ */
+.footer{
+  background-color: $orange;
+  padding: 13px 0 13px 0;
+  .footercontain{
+    @include fitcontain; 
+    a, p{
+      color: black; 
+      font-weight: 300; 
+      @include oswald; 
+      font-size: 14px;
+    }
+  }
+}
+
+/* =========================================================== 404 ============================================================ */
+.error{
+  h2, h3, p{
+    text-align: center !important;
+  }
+}
+/* =========================================================== Porfolio ============================================================ */
+.portfolio{
+  h2{
+    font-size: 34px; 
+    color: $orange;
+  }
+  .port-grid{
+    margin-top: 4%;
+  }
+  .imgcontain{
+    position: relative; 
+    img{
+      width: 100%;
+    }
+  }
+  .hoverdiv{
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    p{
+      color: white; 
+      text-align: center; 
+      margin-top: 20%; 
+      font-size: 30px;
+    }
+    span{
+      color: white; 
+      display: block; 
+      text-align: center; 
+      @include opensans; 
+      font-size: 14px;
+    }
+  }
+}
+
+/* =========================================================== Thumper.php ============================================================ */
+.thumper{
+  h1{
+    text-align: center;
+  }
+  .topthird{
+    h2{
+      text-align: center;
+    }
+  }
+}
+
+/* ------------------------------------------------------------------------- *
+ *  Mobile (Common) : 639px > 0px Width
+/* ------------------------------------------------------------------------- */
+
+//***TO DO go mobile first*****/
+
+
+@media only screen and (max-width: 639px) {
+  body{
+    h1{font-size: 51px !important;}
+    h2{font-size: 36px !important;}
+    h3{font-size: 25px !important;}
+  }
+  .nav{
+    width: 100% !important;
+    li{padding-left: 0 !important; padding-right: 4% !important;}
+    a{font-size: 16px !important;}
+  }
+  .wpcf7{
+    textarea, input{width: 90% !important;}
+    input[type="submit"]{width: 38% !important;}
+  }
+}
