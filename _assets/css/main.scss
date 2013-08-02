@@ -8,35 +8,22 @@
 @mixin opensans{font-family: 'Open Sans', sans-serif;}
 @mixin fitcontain{margin: 0 auto; width: 100%; max-width: 1140px;}
 $secondary_color: #F2F2F2;
-$orange: #FF5200;
-$black: #2B2B2B;
+$primary_color: #FF5200;
+$text_color: #2B2B2B;
 
-//TODO DRY this up.. Turrible CSS here
 body{
-  background-color: #F2F2F2;
-  h1{
-    font-size: 80px; 
+  background-color: $secondary_color;
+  h1, h2, h3, h4{
     @include oswald;
-    color: $black;
+    color: $text_color;
   }
-  h2{
-    font-size: 60px; 
-    @include oswald; 
-    color: $black;
-  }
-  h3{
-    font-size: 45px; 
-    @include oswald; 
-    color: $black;
-  }
-  h4{
-    font-size: 30px;
-    @include oswald; 
-    color: $black;
-  }
+  h1{font-size: 80px;}
+  h2{font-size: 60px;}
+  h3{font-size: 45px;}
+  h4{font-size: 30px;}
   a{
     text-decoration: none; 
-    color: $orange;
+    color: $primary_color;
     &:hover{
       text-decoration: underline;
     }
@@ -57,7 +44,7 @@ body{
 /* =========================================================== Header.php ============================================================ */
 
 .header{
-  background-color: $orange;
+  background-color: $primary_color;
   padding-top: 1px;
   padding-bottom: 14px;
   .navcontain{
@@ -123,7 +110,7 @@ body{
       font-size: 18px;
     }
     h2{
-      color: $orange;
+      color: $primary_color;
     }
   }
 }
@@ -167,8 +154,8 @@ body{
 
 // .wpcf7{
 //   textarea, input{width: 70%; border: none; padding: 5px; @include opensans; color: black;}
-//   input[type="submit"]{width: 17%; background-color: $orange; color: black; @include oswald; font-size: 22px; cursor: pointer;
-//     &:hover{background-color: lighten($orange, 8%); -webkit-transition: background-color .15s linear; transition: background-color .15s linear;}
+//   input[type="submit"]{width: 17%; background-color: $primary_color; color: black; @include oswald; font-size: 22px; cursor: pointer;
+//     &:hover{background-color: lighten($primary_color, 8%); -webkit-transition: background-color .15s linear; transition: background-color .15s linear;}
 //   }
 // }
 
@@ -230,10 +217,10 @@ body{
   .timeline{
     //TODO Compass
     background-image:-webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #f0f0f0), color-stop(49.59%, #f0f0ee), color-stop(49.6%, #e2e2e2), color-stop(49.9%, #e2e2e2), color-stop(50%, #f0f0f0));
-    background-image:-webkit-linear-gradient(left, #F2F2F2 0%,#F2F2F2 49.59%,#e2e2e2 49.6%,#e2e2e2 49.9%,#F2F2F2 50%);
-    background-image:-moz-linear-gradient(left, #F2F2F2 0%,#F2F2F2 49.59%,#e2e2e2 49.6%,#e2e2e2 49.9%,#F2F2F2 50%);
-    background-image:-o-linear-gradient(left, #F2F2F2 0%,#F2F2F2 49.59%,#e2e2e2 49.6%,#e2e2e2 49.9%,#F2F2F2 50%);
-    background-image:linear-gradient(left, #F2F2F2 0%,#F2F2F2 49.59%,#e2e2e2 49.6%,#e2e2e2 49.9%,#F2F2F2 50%);}
+    background-image:-webkit-linear-gradient(left, $secondary_color 0%,$secondary_color 49.59%,#e2e2e2 49.6%,#e2e2e2 49.9%,$secondary_color 50%);
+    background-image:-moz-linear-gradient(left, $secondary_color 0%,$secondary_color 49.59%,#e2e2e2 49.6%,#e2e2e2 49.9%,$secondary_color 50%);
+    background-image:-o-linear-gradient(left, $secondary_color 0%,$secondary_color 49.59%,#e2e2e2 49.6%,#e2e2e2 49.9%,$secondary_color 50%);
+    background-image:linear-gradient(left, $secondary_color 0%,$secondary_color 49.59%,#e2e2e2 49.6%,#e2e2e2 49.9%,$secondary_color 50%);}
     .timeline .timeline-title{
       margin-bottom: 0.5em;
     }
@@ -271,7 +258,7 @@ body{
 }
 /* =========================================================== Footer.php ============================================================ */
 .footer{
-  background-color: $orange;
+  background-color: $primary_color;
   padding: 13px 0 13px 0;
   .footercontain{
     @include fitcontain; 
@@ -294,7 +281,7 @@ body{
 .portfolio{
   h2{
     font-size: 34px; 
-    color: $orange;
+    color: $primary_color;
   }
   .port-grid{
     margin-top: 4%;
