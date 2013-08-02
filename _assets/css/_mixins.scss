@@ -1,10 +1,13 @@
-@mixin oswald{
+@mixin oswald($weight: 400, $style: normal){
+  font-weight: $weight;
+  font-style: $style;
   font-family: 'Oswald', sans-serif;
 }
 @mixin script{
   font-family: 'Yesteryear', cursive;
 }
-@mixin opensans{
+@mixin opensans($weight: 400){
+  font-weight: $weight;
   font-family: 'Open Sans', sans-serif;
 }
 @mixin fitcontain{

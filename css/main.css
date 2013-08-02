@@ -422,12 +422,13 @@ img {
   color: #009999; }
 
 /* Literal.Number.Integer.Long */
-/* =========================================================== Base Styles ============================================================ */
 /* line 8, ../_assets/css/main.scss */
 body {
   background-color: #f2f2f2; }
   /* line 10, ../_assets/css/main.scss */
   body h1, body h2, body h3, body h4 {
+    font-weight: 400;
+    font-style: normal;
     font-family: "Oswald", sans-serif;
     color: #2b2b2b; }
   /* line 14, ../_assets/css/main.scss */
@@ -453,6 +454,8 @@ body {
   body ul {
     list-style: disc;
     padding-left: 3%;
+    font-weight: 400;
+    font-style: normal;
     font-family: "Oswald", sans-serif;
     font-size: 19px;
     font-weight: 300; }
@@ -461,7 +464,6 @@ body {
       padding: 0 10px;
       color: #414141; }
 
-/* =========================================================== Header.php ============================================================ */
 /* line 40, ../_assets/css/main.scss */
 .header {
   background-color: #ff5200;
@@ -485,11 +487,18 @@ body {
       float: left; }
       /* line 56, ../_assets/css/main.scss */
       .header .navcontain .nav li {
+        display: -moz-inline-stack;
         display: inline-block;
+        vertical-align: middle;
+        *vertical-align: auto;
+        zoom: 1;
+        *display: inline;
         padding-right: 4%; }
       /* line 60, ../_assets/css/main.scss */
       .header .navcontain .nav a {
         font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
         font-family: "Oswald", sans-serif;
         color: #272727;
         font-weight: 400; }
@@ -500,7 +509,6 @@ body {
           -webkit-transition: border 0.15s linear;
           transition: border 0.15s linear; }
 
-/* =========================================================== Homepage.php ============================================================ */
 /* line 77, ../_assets/css/main.scss */
 .content {
   background-color: #f2f2f2;
@@ -509,67 +517,71 @@ body {
   /* line 81, ../_assets/css/main.scss */
   .content h1 {
     font-size: 100px;
-    font-family: "Oswald", sans-serif;
-    color: #2B2B2B; }
-  /* line 86, ../_assets/css/main.scss */
+    color: #2b2b2b; }
+  /* line 85, ../_assets/css/main.scss */
   .content p {
-    font-family: "Open Sans", sans-serif;
     font-weight: 300;
+    font-family: "Open Sans", sans-serif;
     line-height: 32px;
     font-size: 19px;
     padding: 5px 0 5px 0;
     color: #414141; }
 
-/* line 97, ../_assets/css/main.scss */
+/* line 95, ../_assets/css/main.scss */
 .homepage h2 a {
   font-size: 60px; }
-/* line 102, ../_assets/css/main.scss */
+/* line 100, ../_assets/css/main.scss */
 .homepage .homeblog h3 {
   font-weight: 600;
   font-size: 18px; }
-/* line 106, ../_assets/css/main.scss */
+/* line 104, ../_assets/css/main.scss */
 .homepage .homeblog h2 {
   color: #ff5200; }
 
-/* =========================================================== Single ============================================================ */
-/* line 112, ../_assets/css/main.scss */
+/* line 110, ../_assets/css/main.scss */
 .post-categories {
   padding-left: 0 !important;
   width: 100%; }
-  /* line 115, ../_assets/css/main.scss */
+  /* line 113, ../_assets/css/main.scss */
   .post-categories li {
+    display: -moz-inline-stack;
     display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
     padding-right: 2%; }
 
-/* =========================================================== Index.php ============================================================ */
-/* line 123, ../_assets/css/main.scss */
+/* line 121, ../_assets/css/main.scss */
 .post {
   padding-bottom: 40px; }
-  /* line 125, ../_assets/css/main.scss */
+  /* line 123, ../_assets/css/main.scss */
   .post .date {
+    font-weight: 400;
+    font-style: normal;
     font-family: "Oswald", sans-serif;
     font-size: 12px; }
-  /* line 129, ../_assets/css/main.scss */
+  /* line 127, ../_assets/css/main.scss */
   .post .cats {
+    font-weight: 400;
+    font-style: normal;
     font-family: "Oswald", sans-serif;
     font-size: 12px;
     float: left;
     padding-right: 1%; }
-  /* line 135, ../_assets/css/main.scss */
+  /* line 133, ../_assets/css/main.scss */
   .post .moretag {
     font-weight: 400; }
-  /* line 138, ../_assets/css/main.scss */
+  /* line 136, ../_assets/css/main.scss */
   .post .commentwrap {
     padding-top: 50px; }
-  /* line 141, ../_assets/css/main.scss */
+  /* line 139, ../_assets/css/main.scss */
   .post h2 {
     padding-top: 25px; }
-  /* line 144, ../_assets/css/main.scss */
+  /* line 142, ../_assets/css/main.scss */
   .post .titleheader {
     padding-top: 0 !important; }
 
-/* =========================================================== Contact ============================================================ */
-/* =========================================================== About.php ============================================================ */
 /* line 157, ../_assets/css/main.scss */
 .timeline {
   overflow: hidden;
@@ -675,48 +687,47 @@ body {
     clear: both; } }
 /* line 247, ../_assets/css/main.scss */
 .time {
-  font-family: "Oswald", sans-serif;
   font-weight: 300;
   font-style: italic;
+  font-family: "Oswald", sans-serif;
   font-size: 12px; }
 
 /* =========================================================== Footer.php ============================================================ */
-/* line 254, ../_assets/css/main.scss */
+/* line 252, ../_assets/css/main.scss */
 .footer {
   background-color: #ff5200;
   padding: 13px 0 13px 0; }
-  /* line 257, ../_assets/css/main.scss */
+  /* line 255, ../_assets/css/main.scss */
   .footer .footercontain {
     margin: 0 auto;
     width: 100%;
     max-width: 1140px; }
-    /* line 259, ../_assets/css/main.scss */
+    /* line 257, ../_assets/css/main.scss */
     .footer .footercontain a, .footer .footercontain p {
-      color: black;
+      color: #2b2b2b;
       font-weight: 300;
+      font-style: normal;
       font-family: "Oswald", sans-serif;
       font-size: 14px; }
 
-/* =========================================================== 404 ============================================================ */
-/* line 270, ../_assets/css/main.scss */
+/* line 267, ../_assets/css/main.scss */
 .error h2, .error h3, .error p {
   text-align: center !important; }
 
-/* =========================================================== Porfolio ============================================================ */
-/* line 276, ../_assets/css/main.scss */
+/* line 273, ../_assets/css/main.scss */
 .portfolio h2 {
   font-size: 34px;
   color: #ff5200; }
-/* line 280, ../_assets/css/main.scss */
+/* line 277, ../_assets/css/main.scss */
 .portfolio .port-grid {
   margin-top: 4%; }
-/* line 283, ../_assets/css/main.scss */
+/* line 280, ../_assets/css/main.scss */
 .portfolio .imgcontain {
   position: relative; }
-  /* line 285, ../_assets/css/main.scss */
+  /* line 282, ../_assets/css/main.scss */
   .portfolio .imgcontain img {
     width: 100%; }
-/* line 289, ../_assets/css/main.scss */
+/* line 286, ../_assets/css/main.scss */
 .portfolio .hoverdiv {
   position: absolute;
   display: none;
@@ -725,25 +736,26 @@ body {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.75); }
-  /* line 297, ../_assets/css/main.scss */
+  /* line 294, ../_assets/css/main.scss */
   .portfolio .hoverdiv p {
     color: white;
     text-align: center;
     margin-top: 20%;
     font-size: 30px; }
-  /* line 303, ../_assets/css/main.scss */
+  /* line 300, ../_assets/css/main.scss */
   .portfolio .hoverdiv span {
     color: white;
     display: block;
     text-align: center;
+    font-weight: 400;
     font-family: "Open Sans", sans-serif;
     font-size: 14px; }
 
 /* =========================================================== Thumper.php ============================================================ */
-/* line 315, ../_assets/css/main.scss */
+/* line 312, ../_assets/css/main.scss */
 .thumper h1 {
   text-align: center; }
-/* line 319, ../_assets/css/main.scss */
+/* line 316, ../_assets/css/main.scss */
 .thumper .topthird h2 {
   text-align: center; }
 
@@ -751,30 +763,30 @@ body {
  *  Mobile (Common) : 639px > 0px Width
 /* ------------------------------------------------------------------------- */
 @media only screen and (max-width: 639px) {
-  /* line 334, ../_assets/css/main.scss */
+  /* line 331, ../_assets/css/main.scss */
   body h1 {
     font-size: 51px !important; }
-  /* line 335, ../_assets/css/main.scss */
+  /* line 332, ../_assets/css/main.scss */
   body h2 {
     font-size: 36px !important; }
-  /* line 336, ../_assets/css/main.scss */
+  /* line 333, ../_assets/css/main.scss */
   body h3 {
     font-size: 25px !important; }
 
-  /* line 338, ../_assets/css/main.scss */
+  /* line 335, ../_assets/css/main.scss */
   .nav {
     width: 100% !important; }
-    /* line 340, ../_assets/css/main.scss */
+    /* line 337, ../_assets/css/main.scss */
     .nav li {
       padding-left: 0 !important;
       padding-right: 4% !important; }
-    /* line 341, ../_assets/css/main.scss */
+    /* line 338, ../_assets/css/main.scss */
     .nav a {
       font-size: 16px !important; }
 
-  /* line 344, ../_assets/css/main.scss */
+  /* line 341, ../_assets/css/main.scss */
   .wpcf7 textarea, .wpcf7 input {
     width: 90% !important; }
-  /* line 345, ../_assets/css/main.scss */
+  /* line 342, ../_assets/css/main.scss */
   .wpcf7 input[type="submit"] {
     width: 38% !important; } }
