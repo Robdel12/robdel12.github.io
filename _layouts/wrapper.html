@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title }}</title> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700' rel='stylesheet' type='text/css'> 
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="navcontain">
+        <div class="pad">
+          <div class="nav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="">Projects</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div><!-- End Nav -->
+        </div><!-- End Pad -->
+      </div><!-- End Navcontain -->
+    </div><!-- End Header -->
+    <div class="contain">
+      <div class="pad">
+        {{ content }}
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footercontain">
+        <div class="pad">
+          <p>&copy; 2013 Robert DeLuca - <a href="https://github.com/Robdel12">Check out my Github</a></p>
+          <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

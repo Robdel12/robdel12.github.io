@@ -422,35 +422,799 @@ img {
   color: #009999; }
 
 /* Literal.Number.Integer.Long */
-/* line 8, ../_assets/css/main.scss */
+/* line 57, ../_assets/css/_thumper.scss */
+.full {
+  width: 100%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.half {
+  width: 49%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.one-third {
+  width: 32%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.two-third {
+  width: 66%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.one-fourth {
+  width: 23.5%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.two-fourth {
+  width: 49%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.three-fourth {
+  width: 74.5%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.one-fifth {
+  width: 18.4%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.two-fifth {
+  width: 38.8%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.three-fifth {
+  width: 59.2%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.four-fifth {
+  width: 79.6%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.one-sixth {
+  width: 15%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.two-sixth {
+  width: 32%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.three-sixth {
+  width: 49%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.four-sixth {
+  width: 66%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.five-sixth {
+  width: 83%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.one-seventh {
+  width: 12.57143%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.two-seventh {
+  width: 27.14286%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.three-seventh {
+  width: 41.71429%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.four-seventh {
+  width: 56.28571%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.five-seventh {
+  width: 70.85714%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.six-seventh {
+  width: 85.42857%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.one-eighth {
+  width: 10.75%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.two-eighth {
+  width: 23.5%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.three-eighth {
+  width: 36.25%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.four-eighth {
+  width: 49%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.five-eighth {
+  width: 61.75%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.six-eighth {
+  width: 74.5%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.seven-eighth {
+  width: 87.25%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.one-nineth {
+  width: 9.33333%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.two-nineth {
+  width: 20.66667%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.three-nineth {
+  width: 32%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.four-nineth {
+  width: 43.33333%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.five-nineth {
+  width: 54.66667%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.six-nineth {
+  width: 66%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.seven-nineth {
+  width: 77.33333%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eight-nineth {
+  width: 88.66667%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.one-tenth {
+  width: 8.2%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.two-tenth {
+  width: 18.4%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.three-tenth {
+  width: 28.6%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.four-tenth {
+  width: 38.8%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.five-tenth {
+  width: 49%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.six-tenth {
+  width: 59.2%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.seven-tenth {
+  width: 69.4%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eight-tenth {
+  width: 79.6%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.nine-tenth {
+  width: 89.8%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.one-eleven {
+  width: 7.27273%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.two-eleven {
+  width: 16.54545%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.three-eleven {
+  width: 25.81818%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.four-eleven {
+  width: 35.09091%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.five-eleven {
+  width: 44.36364%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.six-eleven {
+  width: 53.63636%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.seven-eleven {
+  width: 62.90909%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eight-eleven {
+  width: 72.18182%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.nine-eleven {
+  width: 81.45455%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.ten-eleven {
+  width: 90.72727%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.one-twelve {
+  width: 6.5%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.two-twelve {
+  width: 15%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.three-twelve {
+  width: 23.5%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.four-twelve {
+  width: 32%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.five-twelve {
+  width: 40.5%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.six-twelve {
+  width: 49%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.seven-twelve {
+  width: 57.5%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eight-twelve {
+  width: 66%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.nine-twelve {
+  width: 74.5%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.ten-twelve {
+  width: 83%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eleven-twelve {
+  width: 91.5%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.one-thirteen {
+  width: 5.84615%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.two-thirteen {
+  width: 13.69231%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.three-thirteen {
+  width: 21.53846%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.four-thirteen {
+  width: 29.38462%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.five-thirteen {
+  width: 37.23077%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.six-thirteen {
+  width: 45.07692%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.seven-thirteen {
+  width: 52.92308%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eight-thirteen {
+  width: 60.76923%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.nine-thirteen {
+  width: 68.61538%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.ten-thirteen {
+  width: 76.46154%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eleven-thirteen {
+  width: 84.30769%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.twelve-thirteen {
+  width: 92.15385%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.one-fourteen {
+  width: 5.28571%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.two-fourteen {
+  width: 12.57143%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.three-fourteen {
+  width: 19.85714%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.four-fourteen {
+  width: 27.14286%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.five-fourteen {
+  width: 34.42857%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.six-fourteen {
+  width: 41.71429%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.seven-fourteen {
+  width: 49%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eight-fourteen {
+  width: 56.28571%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.nine-fourteen {
+  width: 63.57143%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.ten-fourteen {
+  width: 70.85714%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eleven-fourteen {
+  width: 78.14286%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.twelve-fourteen {
+  width: 85.42857%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.thirteen-fourteen {
+  width: 92.71429%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.one-fifteen {
+  width: 4.8%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.two-fifteen {
+  width: 11.6%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.three-fifteen {
+  width: 18.4%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.four-fifteen {
+  width: 25.2%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.five-fifteen {
+  width: 32%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.six-fifteen {
+  width: 38.8%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.seven-fifteen {
+  width: 45.6%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eight-fifteen {
+  width: 52.4%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.nine-fifteen {
+  width: 59.2%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.ten-fifteen {
+  width: 66%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eleven-fifteen {
+  width: 72.8%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.twelve-fifteen {
+  width: 79.6%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.thirteen-fifteen {
+  width: 86.4%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.fourteen-fifteen {
+  width: 93.2%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.one-sixteen {
+  width: 4.375%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.two-sixteen {
+  width: 10.75%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.three-sixteen {
+  width: 17.125%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.four-sixteen {
+  width: 23.5%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.five-sixteen {
+  width: 29.875%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.six-sixteen {
+  width: 36.25%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.seven-sixteen {
+  width: 42.625%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eight-sixteen {
+  width: 49%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.nine-sixteen {
+  width: 55.375%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.ten-sixteen {
+  width: 61.75%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eleven-sixteen {
+  width: 68.125%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.twelve-sixteen {
+  width: 74.5%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.thirteen-sixteen {
+  width: 80.875%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.fourteen-sixteen {
+  width: 87.25%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.fifteen-sixteen {
+  width: 93.625%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.one-seventeen {
+  width: 4%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.two-seventeen {
+  width: 10%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.three-seventeen {
+  width: 16%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.four-seventeen {
+  width: 22%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.five-seventeen {
+  width: 28%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.six-seventeen {
+  width: 34%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.seven-seventeen {
+  width: 40%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eight-seventeen {
+  width: 46%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.nine-seventeen {
+  width: 52%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.ten-seventeen {
+  width: 58%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eleven-seventeen {
+  width: 64%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.twelve-seventeen {
+  width: 70%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.thirteen-seventeen {
+  width: 76%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.fourteen-seventeen {
+  width: 82%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.fifteen-seventeen {
+  width: 88%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.sixteen-seventeen {
+  width: 94%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.one-eighteen {
+  width: 3.66667%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.two-eighteen {
+  width: 9.33333%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.three-eighteen {
+  width: 15%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.four-eighteen {
+  width: 20.66667%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.five-eighteen {
+  width: 26.33333%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.six-eighteen {
+  width: 32%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.seven-eighteen {
+  width: 37.66667%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eight-eighteen {
+  width: 43.33333%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.nine-eighteen {
+  width: 49%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.ten-eighteen {
+  width: 54.66667%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eleven-eighteen {
+  width: 60.33333%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.twelve-eighteen {
+  width: 66%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.thirteen-eighteen {
+  width: 71.66667%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.fourteen-eighteen {
+  width: 77.33333%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.fifteen-eighteen {
+  width: 83%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.sixteen-eighteen {
+  width: 88.66667%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.seventeen-eighteen {
+  width: 94.33333%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.one-nineteen {
+  width: 3.36842%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.two-nineteen {
+  width: 8.73684%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.three-nineteen {
+  width: 14.10526%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.four-nineteen {
+  width: 19.47368%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.five-nineteen {
+  width: 24.84211%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.six-nineteen {
+  width: 30.21053%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.seven-nineteen {
+  width: 35.57895%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eight-nineteen {
+  width: 40.94737%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.nine-nineteen {
+  width: 46.31579%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.ten-nineteen {
+  width: 51.68421%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eleven-nineteen {
+  width: 57.05263%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.twelve-nineteen {
+  width: 62.42105%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.thirteen-nineteen {
+  width: 67.78947%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.fourteen-nineteen {
+  width: 73.15789%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.fifteen-nineteen {
+  width: 78.52632%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.sixteen-nineteen {
+  width: 83.89474%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.seventeen-nineteen {
+  width: 89.26316%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eighteen-nineteen {
+  width: 94.63158%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.one-twenty {
+  width: 3.1%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.two-twenty {
+  width: 8.2%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.three-twenty {
+  width: 13.3%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.four-twenty {
+  width: 18.4%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.five-twenty {
+  width: 23.5%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.six-twenty {
+  width: 28.6%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.seven-twenty {
+  width: 33.7%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eight-twenty {
+  width: 38.8%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.nine-twenty {
+  width: 43.9%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.ten-twenty {
+  width: 49%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eleven-twenty {
+  width: 54.1%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.twelve-twenty {
+  width: 59.2%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.thirteen-twenty {
+  width: 64.3%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.fourteen-twenty {
+  width: 69.4%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.fifteen-twenty {
+  width: 74.5%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.sixteen-twenty {
+  width: 79.6%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.seventeen-twenty {
+  width: 84.7%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.eighteen-twenty {
+  width: 89.8%; }
+
+/* line 57, ../_assets/css/_thumper.scss */
+.nineteen-twenty {
+  width: 94.9%; }
+
+/* line 9, ../_assets/css/main.scss */
 body {
   background-color: #f2f2f2; }
-  /* line 10, ../_assets/css/main.scss */
+  /* line 11, ../_assets/css/main.scss */
   body h1, body h2, body h3, body h4 {
     font-weight: 400;
     font-style: normal;
     font-family: "Oswald", sans-serif;
     color: #2b2b2b; }
-  /* line 14, ../_assets/css/main.scss */
+  /* line 15, ../_assets/css/main.scss */
   body h1 {
     font-size: 80px; }
-  /* line 15, ../_assets/css/main.scss */
+  /* line 16, ../_assets/css/main.scss */
   body h2 {
     font-size: 60px; }
-  /* line 16, ../_assets/css/main.scss */
+  /* line 17, ../_assets/css/main.scss */
   body h3 {
     font-size: 45px; }
-  /* line 17, ../_assets/css/main.scss */
+  /* line 18, ../_assets/css/main.scss */
   body h4 {
     font-size: 30px; }
-  /* line 18, ../_assets/css/main.scss */
+  /* line 19, ../_assets/css/main.scss */
   body a {
     text-decoration: none;
     color: #ff5200; }
-    /* line 21, ../_assets/css/main.scss */
+    /* line 22, ../_assets/css/main.scss */
     body a:hover {
       text-decoration: underline; }
-  /* line 25, ../_assets/css/main.scss */
+  /* line 26, ../_assets/css/main.scss */
   body ul {
     list-style: disc;
     padding-left: 3%;
@@ -458,33 +1222,35 @@ body {
     font-style: normal;
     font-family: "Oswald", sans-serif;
     font-size: 19px; }
-    /* line 30, ../_assets/css/main.scss */
+    /* line 31, ../_assets/css/main.scss */
     body ul li {
       padding: 0 10px;
       color: #414141; }
 
-/* line 39, ../_assets/css/main.scss */
+/* line 40, ../_assets/css/main.scss */
 .header {
   background-color: #ff5200;
   padding-top: 1px;
   padding-bottom: 14px; }
-  /* line 43, ../_assets/css/main.scss */
+  /* line 44, ../_assets/css/main.scss */
   .header .navcontain {
     margin: 0 auto;
     width: 100%;
     max-width: 1140px;
     margin-top: 1%; }
-    /* line 46, ../_assets/css/main.scss */
+    /* line 47, ../_assets/css/main.scss */
     .header .navcontain .logo {
       width: 10%;
       float: left;
       padding-right: 3%; }
-    /* line 51, ../_assets/css/main.scss */
+    /* line 52, ../_assets/css/main.scss */
     .header .navcontain .nav {
       margin-top: 4px;
-      width: 100%;
-      float: left; }
+      width: 100%; }
       /* line 55, ../_assets/css/main.scss */
+      .header .navcontain .nav ul {
+        padding-left: 0; }
+      /* line 58, ../_assets/css/main.scss */
       .header .navcontain .nav li {
         display: -moz-inline-stack;
         display: inline-block;
@@ -492,15 +1258,15 @@ body {
         *vertical-align: auto;
         zoom: 1;
         *display: inline;
-        padding-right: 4%; }
-      /* line 59, ../_assets/css/main.scss */
+        padding: 0 4% 0 0; }
+      /* line 62, ../_assets/css/main.scss */
       .header .navcontain .nav a {
         font-size: 20px;
         font-weight: 400;
         font-style: normal;
         font-family: "Oswald", sans-serif;
         color: #272727; }
-        /* line 63, ../_assets/css/main.scss */
+        /* line 66, ../_assets/css/main.scss */
         .header .navcontain .nav a:hover {
           text-decoration: none;
           -webkit-transition: border 0.15s linear;
@@ -509,17 +1275,17 @@ body {
           transition: border 0.15s linear;
           border-top: 4px solid black; }
 
-/* line 74, ../_assets/css/main.scss */
-.content {
+/* line 77, ../_assets/css/main.scss */
+.contain {
   background-color: #f2f2f2;
   padding-top: 40px;
   padding-bottom: 40px; }
-  /* line 78, ../_assets/css/main.scss */
-  .content h1 {
+  /* line 81, ../_assets/css/main.scss */
+  .contain h1 {
     font-size: 100px;
     color: #2b2b2b; }
-  /* line 82, ../_assets/css/main.scss */
-  .content p {
+  /* line 85, ../_assets/css/main.scss */
+  .contain p {
     font-weight: 300;
     font-family: "Open Sans", sans-serif;
     line-height: 32px;
@@ -527,22 +1293,22 @@ body {
     padding: 5px 0 5px 0;
     color: #414141; }
 
-/* line 92, ../_assets/css/main.scss */
+/* line 95, ../_assets/css/main.scss */
 .homepage h2 a {
   font-size: 60px; }
-/* line 97, ../_assets/css/main.scss */
+/* line 100, ../_assets/css/main.scss */
 .homepage .homeblog h3 {
   font-weight: 600;
   font-size: 18px; }
-/* line 101, ../_assets/css/main.scss */
+/* line 104, ../_assets/css/main.scss */
 .homepage .homeblog h2 {
   color: #ff5200; }
 
-/* line 107, ../_assets/css/main.scss */
+/* line 110, ../_assets/css/main.scss */
 .post-categories {
   padding-left: 0 !important;
   width: 100%; }
-  /* line 110, ../_assets/css/main.scss */
+  /* line 113, ../_assets/css/main.scss */
   .post-categories li {
     display: -moz-inline-stack;
     display: inline-block;
@@ -552,16 +1318,16 @@ body {
     *display: inline;
     padding-right: 2%; }
 
-/* line 118, ../_assets/css/main.scss */
+/* line 121, ../_assets/css/main.scss */
 .post {
   padding-bottom: 40px; }
-  /* line 120, ../_assets/css/main.scss */
+  /* line 123, ../_assets/css/main.scss */
   .post .date {
     font-weight: 400;
     font-style: normal;
     font-family: "Oswald", sans-serif;
     font-size: 12px; }
-  /* line 124, ../_assets/css/main.scss */
+  /* line 127, ../_assets/css/main.scss */
   .post .cats {
     font-weight: 400;
     font-style: normal;
@@ -569,26 +1335,26 @@ body {
     font-size: 12px;
     float: left;
     padding-right: 1%; }
-  /* line 130, ../_assets/css/main.scss */
+  /* line 133, ../_assets/css/main.scss */
   .post .moretag {
     font-weight: 400; }
-  /* line 133, ../_assets/css/main.scss */
+  /* line 136, ../_assets/css/main.scss */
   .post .commentwrap {
     padding-top: 50px; }
-  /* line 136, ../_assets/css/main.scss */
+  /* line 139, ../_assets/css/main.scss */
   .post h2 {
     padding-top: 25px; }
-  /* line 139, ../_assets/css/main.scss */
+  /* line 142, ../_assets/css/main.scss */
   .post .titleheader {
     padding-top: 0 !important; }
 
-/* line 154, ../_assets/css/main.scss */
+/* line 157, ../_assets/css/main.scss */
 .timeline {
   overflow: hidden;
   position: relative;
   margin-bottom: 2em; }
 
-/* line 159, ../_assets/css/main.scss */
+/* line 162, ../_assets/css/main.scss */
 .timeline .timeline-title {
   clear: both;
   text-align: center;
@@ -598,13 +1364,13 @@ body {
   max-width: 8em;
   padding: 0.25em 0.5em; }
 
-/* line 168, ../_assets/css/main.scss */
+/* line 171, ../_assets/css/main.scss */
 .timeline ul {
   overflow: hidden;
   margin: 0 0 1em;
   padding: 0; }
 
-/* line 173, ../_assets/css/main.scss */
+/* line 176, ../_assets/css/main.scss */
 .timeline li {
   background: #e2e2e2;
   padding: 2%;
@@ -613,7 +1379,7 @@ body {
   margin: 0 0 1em 1em;
   position: relative; }
 
-/* line 181, ../_assets/css/main.scss */
+/* line 184, ../_assets/css/main.scss */
 .timeline li:before {
   color: #e2e2e2;
   content: "◀";
@@ -622,27 +1388,27 @@ body {
   top: 0.5em;
   z-index: 100; }
 
-/* line 189, ../_assets/css/main.scss */
+/* line 192, ../_assets/css/main.scss */
 .timeline time {
   color: #979797;
   display: block;
   font-size: 0.9em;
   font-style: italic; }
 
-/* line 195, ../_assets/css/main.scss */
+/* line 198, ../_assets/css/main.scss */
 .timeline .description {
   margin-bottom: 0;
   line-height: 31px;
   font-size: 17px; }
 
 @media (min-width: 20em) {
-  /* line 201, ../_assets/css/main.scss */
+  /* line 204, ../_assets/css/main.scss */
   .matte {
     float: right;
     width: 37.5%;
     margin: 0 0 1em 1.5em; } }
 @media screen and (min-width: 40em) {
-  /* line 208, ../_assets/css/main.scss */
+  /* line 211, ../_assets/css/main.scss */
   .timeline {
     background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #f2f2f2), color-stop(49.59%, #f2f2f2), color-stop(49.6%, #e2e2e2), color-stop(49.9%, #e2e2e2), color-stop(50%, #f2f2f2));
     background: -webkit-linear-gradient(left, #f2f2f2 0%, #f2f2f2 49.59%, #e2e2e2 49.6%, #e2e2e2 49.9%, #f2f2f2 50%);
@@ -650,42 +1416,42 @@ body {
     background: -o-linear-gradient(left, #f2f2f2 0%, #f2f2f2 49.59%, #e2e2e2 49.6%, #e2e2e2 49.9%, #f2f2f2 50%);
     background: linear-gradient(left, #f2f2f2 0%, #f2f2f2 49.59%, #e2e2e2 49.6%, #e2e2e2 49.9%, #f2f2f2 50%); }
 
-  /* line 212, ../_assets/css/main.scss */
+  /* line 215, ../_assets/css/main.scss */
   .timeline .timeline-title {
     margin-bottom: 0.5em; }
 
-  /* line 215, ../_assets/css/main.scss */
+  /* line 218, ../_assets/css/main.scss */
   .timeline img {
     margin-bottom: 0.3em; }
 
-  /* line 218, ../_assets/css/main.scss */
+  /* line 221, ../_assets/css/main.scss */
   .timeline p {
     font-size: 0.9em; }
 
-  /* line 221, ../_assets/css/main.scss */
+  /* line 224, ../_assets/css/main.scss */
   .timeline li {
     width: 40%;
     margin: 3% 5% 0; }
 
-  /* line 225, ../_assets/css/main.scss */
+  /* line 228, ../_assets/css/main.scss */
   .timeline li:nth-of-type(odd) {
     float: left; }
 
-  /* line 228, ../_assets/css/main.scss */
+  /* line 231, ../_assets/css/main.scss */
   .timeline li:nth-of-type(odd):before {
     content: "▶";
     left: auto;
     right: -0.75em; }
 
-  /* line 233, ../_assets/css/main.scss */
+  /* line 236, ../_assets/css/main.scss */
   .timeline li:nth-of-type(even) {
     margin-top: -1%;
     float: right; }
 
-  /* line 237, ../_assets/css/main.scss */
+  /* line 240, ../_assets/css/main.scss */
   .timeline li:nth-of-type(2n+1) {
     clear: both; } }
-/* line 241, ../_assets/css/main.scss */
+/* line 244, ../_assets/css/main.scss */
 .time {
   font-weight: 300;
   font-style: italic;
@@ -693,16 +1459,16 @@ body {
   font-size: 12px; }
 
 /* =========================================================== Footer.php ============================================================ */
-/* line 246, ../_assets/css/main.scss */
+/* line 249, ../_assets/css/main.scss */
 .footer {
   background-color: #ff5200;
   padding: 13px 0 13px 0; }
-  /* line 249, ../_assets/css/main.scss */
+  /* line 252, ../_assets/css/main.scss */
   .footer .footercontain {
     margin: 0 auto;
     width: 100%;
     max-width: 1140px; }
-    /* line 251, ../_assets/css/main.scss */
+    /* line 254, ../_assets/css/main.scss */
     .footer .footercontain a, .footer .footercontain p {
       color: #2b2b2b;
       font-weight: 300;
@@ -710,24 +1476,24 @@ body {
       font-family: "Oswald", sans-serif;
       font-size: 14px; }
 
-/* line 261, ../_assets/css/main.scss */
+/* line 264, ../_assets/css/main.scss */
 .error h2, .error h3, .error p {
   text-align: center !important; }
 
-/* line 267, ../_assets/css/main.scss */
+/* line 270, ../_assets/css/main.scss */
 .portfolio h2 {
   font-size: 34px;
   color: #ff5200; }
-/* line 271, ../_assets/css/main.scss */
+/* line 274, ../_assets/css/main.scss */
 .portfolio .port-grid {
   margin-top: 4%; }
-/* line 274, ../_assets/css/main.scss */
+/* line 277, ../_assets/css/main.scss */
 .portfolio .imgcontain {
   position: relative; }
-  /* line 276, ../_assets/css/main.scss */
+  /* line 279, ../_assets/css/main.scss */
   .portfolio .imgcontain img {
     width: 100%; }
-/* line 280, ../_assets/css/main.scss */
+/* line 283, ../_assets/css/main.scss */
 .portfolio .hoverdiv {
   position: absolute;
   display: none;
@@ -736,13 +1502,13 @@ body {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.75); }
-  /* line 288, ../_assets/css/main.scss */
+  /* line 291, ../_assets/css/main.scss */
   .portfolio .hoverdiv p {
     color: white;
     text-align: center;
     margin-top: 20%;
     font-size: 30px; }
-  /* line 294, ../_assets/css/main.scss */
+  /* line 297, ../_assets/css/main.scss */
   .portfolio .hoverdiv span {
     color: white;
     display: block;
@@ -751,11 +1517,11 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 14px; }
 
-/* =========================================================== Thumper.php ============================================================ */
-/* line 306, ../_assets/css/main.scss */
+/* =========================================================== Thumper ============================================================ */
+/* line 309, ../_assets/css/main.scss */
 .thumper h1 {
   text-align: center; }
-/* line 310, ../_assets/css/main.scss */
+/* line 313, ../_assets/css/main.scss */
 .thumper .topthird h2 {
   text-align: center; }
 
@@ -763,30 +1529,30 @@ body {
  *  Mobile (Common) : 639px > 0px Width
 /* ------------------------------------------------------------------------- */
 @media only screen and (max-width: 639px) {
-  /* line 325, ../_assets/css/main.scss */
+  /* line 328, ../_assets/css/main.scss */
   body h1 {
     font-size: 51px !important; }
-  /* line 326, ../_assets/css/main.scss */
+  /* line 329, ../_assets/css/main.scss */
   body h2 {
     font-size: 36px !important; }
-  /* line 327, ../_assets/css/main.scss */
+  /* line 330, ../_assets/css/main.scss */
   body h3 {
     font-size: 25px !important; }
 
-  /* line 329, ../_assets/css/main.scss */
+  /* line 332, ../_assets/css/main.scss */
   .nav {
     width: 100% !important; }
-    /* line 331, ../_assets/css/main.scss */
+    /* line 334, ../_assets/css/main.scss */
     .nav li {
       padding-left: 0 !important;
       padding-right: 4% !important; }
-    /* line 332, ../_assets/css/main.scss */
+    /* line 335, ../_assets/css/main.scss */
     .nav a {
       font-size: 16px !important; }
 
-  /* line 335, ../_assets/css/main.scss */
+  /* line 338, ../_assets/css/main.scss */
   .wpcf7 textarea, .wpcf7 input {
     width: 90% !important; }
-  /* line 336, ../_assets/css/main.scss */
+  /* line 339, ../_assets/css/main.scss */
   .wpcf7 input[type="submit"] {
     width: 38% !important; } }
