@@ -2,3 +2,5 @@ name: Roberts personal site
 markdown: redcarpet
 pygments: true
 safe: false
+paginate: 5
+paginate_path: "blog/page:num"
