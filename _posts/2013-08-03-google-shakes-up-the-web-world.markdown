@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Google shakes up the web world"
-date:   2013-08-01 22:34:40
-categories: thoughts, web technology
+date:   2013-08-04
 ---
 ![Google Chrome](/img/blog-images/google-chrome.png)
 
